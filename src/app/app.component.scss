@@ -1,0 +1,9 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+  a + a {
+    margin-left: 10px;
+  }
+}

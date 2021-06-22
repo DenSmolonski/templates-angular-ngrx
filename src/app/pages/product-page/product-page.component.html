@@ -1,0 +1,27 @@
+<mat-grid-list cols="4" rowHeight="100px">
+  <mat-grid-tile><span>name: name</span></mat-grid-tile>
+  <mat-grid-tile><span>count: 422</span></mat-grid-tile>
+  <mat-grid-tile><span>colours: red, black</span></mat-grid-tile>
+  <mat-grid-tile><span>sizes: s, xs</span></mat-grid-tile>
+</mat-grid-list>
+<div class="button-block">
+  <mat-form-field class="button-block__item">
+    <mat-label>choose colour</mat-label>
+    <mat-select>
+      <mat-option value="option1">Red</mat-option>
+      <mat-option value="option2">Black</mat-option>
+      <mat-option value="option3">Blue</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field class="button-block__item">
+    <mat-label>choose size</mat-label>
+    <mat-select>
+      <mat-option value="option1">xs</mat-option>
+      <mat-option value="option2">s</mat-option>
+      <mat-option value="option3">l</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <button mat-raised-button color="primary" class="button-block__item">
+    add to card
+  </button>
+</div>
